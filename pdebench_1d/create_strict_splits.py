@@ -1,4 +1,3 @@
-"""Create a leakage-free ID/OOD manifest for the PDEBench 1D cache."""
 
 from __future__ import annotations
 
