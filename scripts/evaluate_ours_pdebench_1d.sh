@@ -3,6 +3,7 @@
 # Required: CACHE_ROOT, RUN_ROOT, and RESULT_ROOT.
 set -euo pipefail
 
+
 : "${CACHE_ROOT:?Set CACHE_ROOT to the five resolution caches}"
 : "${RUN_ROOT:?Set RUN_ROOT to the trained checkpoints}"
 : "${RESULT_ROOT:?Set RESULT_ROOT for metrics and figures}"
