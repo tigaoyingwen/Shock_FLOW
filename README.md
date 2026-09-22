@@ -5,9 +5,6 @@ This repository contains the reproducible implementation of a shock-aware neural
 1. **SWFMO** — Shock-Frame Wavelet Flow Matching Operator, which predicts the global trajectory from the observed initial field.
 2. **Metric-Aligned Shock Residual Flow**, which is trained on top of a frozen SWFMO checkpoint to correct shock location, sharpness, gradient structure, and local overshoot.
 
-The public release contains only the proposed method and the utilities required to train, evaluate, and visualize it. Historical baseline and exploratory implementations remain outside the clean export.
-
-The public core lives in [`pdebench_1d/`](pdebench_1d/). Historical exploratory scripts and generated artifacts remain in the working tree but are excluded from a release by [`.gitignore`](.gitignore).
 
 ## Installation
 
